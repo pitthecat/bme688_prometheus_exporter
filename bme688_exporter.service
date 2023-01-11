@@ -1,0 +1,10 @@
+[Unit]
+Description=BME688 Prometheus exporer
+
+[Service]
+User=pi
+WorkingDirectory=/opt/bme688
+ExecStart=/usr/bin/python3 bme688_exporter.py
+
+[Install]
+WantedBy=multi-user.target
