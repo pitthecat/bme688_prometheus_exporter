@@ -1,9 +1,11 @@
 # Bosch BME688/BME680 Prometheus exporter
 
-## This small project is a simple Prometheus exporter for the Bosch BME688/BME680 sensor. The exporter outputs temperature, relative humidity and barometric pressure.
-
 ![Grafana](images/bme688.PNG)
 Grafana dashboard with the BME688 sensor values.
+
+## Intro
+
+This small project is a simple Prometheus exporter for the Bosch BME688/BME680 sensor. The exporter outputs temperature, relative humidity and barometric pressure.
 
 ## Prerequisites 
 
